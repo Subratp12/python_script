@@ -1,69 +1,3 @@
-cd ..
-ls
-cd day3
-ls
-mkdir python
-cd python/
-vi challenge2.py
-python3 challenge2.py 
-vi challenge2.py
-python3 challenge2.py 
-vi challenge2.py
-python3 challenge2.py
-cat challenge2.py 
-python3 challenge2.py
-cat challenge2.py 
-vi challenge2.py
-python3 challenge2.py
-cat challenge2.py 
-vi challenge3.py 
-python3 challenge3.py
-vi challenge3.py 
-python3 challenge3.py
-vi challenge3.py 
-python3 challenge3.py
-cat challenge3.py 
-vi challenge4.py
-python3 challenge4.py 
-vi challenge4.py
-python3 challenge4.py 
-vi challenge4.py
-python3 challenge4.py 
-cat challenge4.py 
-cd devops-practice/week1/day3/python/
-ls
-vi challenge4.py 
-python3 challenge4.py 
-vi challenge4.py 
-python3 challenge4.py 
-cat challenge4.py 
-vi challenge4.py 
-python3 challenge4.py 
-vi challenge4.py 
-python3 challenge4.py 
-cat challenge4.py 
-ls
-vi challenge1.py
-python3 challenge1.py 
-cat challenge1.py 
-vi challenge1.py
-python3 challenge1.py 
-ls
-vi challenge5.py
-python3 challenge5.py 
-vi challenge5.py
-python3 challenge5.py 
-cat challenge5.py 
-vi challenge6.py
-python3 challenge6.py 
-cat challenge6.py 
-clear
-cd devops-practice/week1/day3/python/
-ls
-cat challenge6.py 
-clear
-ls
-vi challenge7.py
 python3 challenge7.py 
 cat challenge7.py 
 vi challenge8.py
@@ -1998,3 +1932,69 @@ cat production_guard.py
 vi maintenance_router.py
 cat maintenance_router.py 
 python3 maintenance_router.py
+clear
+ls
+cd folder1
+ls
+cd ..
+cd 
+rm -rf folder1
+cd folder2
+ls
+cd ../cd folder3
+cd ..
+cd folder3
+ls
+cd ..
+rm -rd folder*
+ls
+cd newproject/
+ls
+cd src/
+ls
+cd ../..
+rm -rd newproject/
+ls
+cd test/
+ls
+cd config/
+ls
+cd .
+cd ..
+cd file1.txt/
+ls
+cd ..
+cd logs/
+ls
+cd ../..
+rm -rd test/
+ls
+cd python_practice/
+ls
+cd ..
+l
+ls
+mv  cpu_action_plan.py  cpu_memory_status.py cpu_memory_action.py cpu_status_report.py python_practice
+ls
+cat output.txt 
+rm output.txt 
+ls
+cat linux.txt 
+rm linux.txt 
+ls
+pwd
+git init
+git --version
+git add .
+git status
+git commit -m "adding script"
+cd python_practice/
+ls
+cd ..
+ls
+cd  devops-practice/
+ls
+cd week1
+ls
+cd  day2
+ls
