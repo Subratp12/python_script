@@ -1,0 +1,10 @@
+---
+Company:
+  Name: ITC
+  Devops_team:
+    Team_size: 2
+    Lead_name: Subat
+  Infrastructure:
+    - Dev_server
+    - UAT_server
+    - Prod_server

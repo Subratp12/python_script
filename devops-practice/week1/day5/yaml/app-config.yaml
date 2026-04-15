@@ -1,0 +1,11 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  app_name: "nginx:latest"
+  environment: "staging"
+  debug_mode: "true"
+  api_url: "https://www.api.com"
+  timeout: "300"

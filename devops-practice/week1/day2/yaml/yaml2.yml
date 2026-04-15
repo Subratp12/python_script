@@ -1,0 +1,20 @@
+---
+app_name: nginx
+version: latest
+database:
+  host: postgresql
+  port: 5432
+  name: my-database
+servers:
+  - name: web
+    ip: 1.1.1.1
+    role: admin
+  - name: app
+    ip: 2.2.2.2
+    role: Developer
+  - name: db
+    ip: 3.3.3.3
+    role: QA
+alerts:
+  email: subrat.padhi@gmail.com
+  slack_webhook: "https://hooks.slack.com/services/"

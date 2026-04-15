@@ -1,0 +1,25 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: python-app-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: python-app
+  template:
+    metadata:
+      labels:
+        app: python-app
+    spec:
+      containers:
+        - name: python-container
+          image: python:3.11
+          ports:
+            - containerPort: 5000
+          env:
+            - name: App_NEW
+              value: production
+            - name: APP_DEBUG
+              value: "false"

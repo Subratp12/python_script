@@ -1,0 +1,7 @@
+---
+Server:
+  server_name: abc
+  IP_address: 192.10.1.1
+  Port_number: 22
+  active: true
+  Opearatin_system: Linux

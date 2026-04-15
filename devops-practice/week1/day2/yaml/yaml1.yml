@@ -1,0 +1,14 @@
+---
+environment:
+  - name: Prod
+    server_count: 2
+    active: true
+    owner: Subrat
+  - name: UAT
+    server_count: 3
+    active: false
+    owner: Kruttika
+  - name: SIT
+    server_count: 4
+    active: true
+    owner: John

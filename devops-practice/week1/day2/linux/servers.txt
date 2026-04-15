@@ -1,0 +1,5 @@
+Dev Server
+Sit Server
+Uat Server
+Non Prod Server
+Prod Server

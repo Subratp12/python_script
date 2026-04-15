@@ -1,0 +1,11 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: myapp-configMap
+data:
+  DB_HOST: "172.1.1.1"
+  DB_PORT: "5534"
+  DB_NAME: "rdbms@oracle.com"
+  DB_USER: "subpad"
+  MAX_CONNECTIOS: "100"

@@ -1,0 +1,8 @@
+INFO: Application started
+ERROR: Database connection failed
+DEBUG: Checking config
+ERROR: Timeout on server web01
+INFO: Retry attempt 1
+DEBUG: Memory usage 85%
+ERROR: Disk space critical
+INFO: Application stopped

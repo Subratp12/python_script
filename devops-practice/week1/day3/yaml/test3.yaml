@@ -1,0 +1,15 @@
+---
+microservices: &microservices
+  timeout: 30
+  retries: 3
+  log_level: Info
+service:
+  auth:
+    <<: *microservices
+  payment:
+    <<: *microservices
+    timeout: 60
+    retries: 5
+  notification:
+    <<: *microservices
+    log_level: Debug

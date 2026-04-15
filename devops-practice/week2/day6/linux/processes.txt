@@ -1,0 +1,6 @@
+nginx 1023 root RUNNING 2.1
+mysql 1045 mysql STOPPED 0.0
+redis 1067 redis RUNNING 0.8
+apache 1089 root STOPPED 0.0
+node 1102 ubuntu RUNNING 5.3
+python 1134 ubuntu RUNNING 1.2

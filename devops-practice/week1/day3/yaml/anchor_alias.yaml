@@ -1,0 +1,11 @@
+---
+subrat: &person
+  role: devops
+  city: Bangalore
+  company: IBM
+
+team_member1:
+  <<: *person
+team_member2:
+  <<: *person
+  city: mumbai

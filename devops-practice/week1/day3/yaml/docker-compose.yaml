@@ -1,0 +1,13 @@
+---
+services:
+  web:
+    - app: nginx
+      port: 80:80
+  db:
+    - app: postgres:13
+      env_variables:
+        - POSTGRES_DB
+        - POSTGRES_USER
+        - POSTGRES_PASSWORD
+network:
+  app-network:

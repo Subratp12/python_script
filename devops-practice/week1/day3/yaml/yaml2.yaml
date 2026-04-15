@@ -1,0 +1,13 @@
+---
+base_job: &base_job
+  image: ubuntu:latest
+  timeout: 15
+  retry: 2
+build:
+  <<: *base_job
+test:
+  <<: *base_job
+deploy:
+  <<: *base_job
+  timeout: 30
+  environment: production

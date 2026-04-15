@@ -1,0 +1,6 @@
+Service
+ ├── metadata
+ └── spec
+      ├── selector
+      ├── ports
+      └── type

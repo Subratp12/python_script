@@ -1,0 +1,13 @@
+---
+common: &common
+  replicas: 2
+  image: myapp:latest
+  namespace: default
+Prod:
+  <<: *common
+  replicas: 5
+  image: myapp:stable
+uat:
+  <<: *common
+dev:
+  <<: *common

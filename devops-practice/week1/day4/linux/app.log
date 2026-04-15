@@ -1,0 +1,23 @@
+2026-03-28 21:46:01 INFO   Starting application...
+2026-03-28 21:46:02 DEBUG  Loading configuration from config.yml
+2026-03-28 21:46:03 INFO   Connecting to database server db01
+2026-03-28 21:46:04 WARN   Cache not found, initializing new cache
+2026-03-28 21:46:05 ERROR  Failed to connect to database: timeout
+2026-03-28 21:46:06 INFO   Retrying database connection...
+2026-03-28 21:46:07 INFO   Database connection established
+2026-03-28 21:46:08 DEBUG  Running migration scripts
+2026-03-28 21:46:09 INFO   Migration completed successfully
+2026-03-28 21:46:10 INFO   Application started successfully
+2026-03-28 21:46:15 DEBUG  Received request GET /api/users
+2026-03-28 21:46:15 INFO   Responded with 200 OK
+2026-03-28 21:46:20 DEBUG  Received request POST /api/orders
+2026-03-28 21:46:21 ERROR  Order processing failed: insufficient stock
+2026-03-28 21:46:22 INFO   User session expired for user_id=42
+2026-03-28 21:46:25 WARN   High memory usage detected: 85%
+2026-03-28 21:46:30 DEBUG  Scheduled job 'cleanup' started
+2026-03-28 21:46:31 INFO   Cleanup job completed, removed 120 stale sessions
+2026-03-28 21:46:35 DEBUG  Received request GET /api/products
+2026-03-28 21:46:35 INFO   Responded with 200 OK
+2026-03-28 21:46:40 ERROR  Payment gateway unreachable
+2026-03-28 21:46:41 WARN   Retrying payment gateway connection...
+2026-03-28 21:46:42 INFO   Payment gateway connection restored

@@ -1,0 +1,12 @@
+/*
+Deployment
+ ├── metadata
+ └── spec
+      ├── replicas
+      ├── selector
+      └── template
+           ├── metadata
+           └── spec
+                └── containers
+*/
+

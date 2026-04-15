@@ -1,0 +1,13 @@
+---
+settings: &common_settings
+  timeout: 30
+  retries: 3
+  owner: devops-team
+dev:
+  <<: *common_settings
+uat:
+  <<: *common_settings
+prod:
+  <<: *common_settings
+  timeout: 60
+  retries: 5

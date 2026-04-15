@@ -1,0 +1,9 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: myapp-ConfigMap
+data:
+  app_env: "Prod"
+  log_level: "INFO"
+  port: "80"

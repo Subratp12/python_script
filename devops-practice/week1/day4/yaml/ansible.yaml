@@ -1,0 +1,14 @@
+---
+hosts: webservers
+become: true
+tasks:
+  - name: Install nginx
+    package_name: nginx
+    state: present
+  - name: Start nginx
+    service_name: nginx
+    state: started
+    enabled: true
+  - name: Copy config
+    copy_src: nginx.conf
+    dest: /etc/nginx/nginx.conf

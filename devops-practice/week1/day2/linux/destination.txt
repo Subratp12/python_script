@@ -1,0 +1,1 @@
+This file is to copy from source to destination
